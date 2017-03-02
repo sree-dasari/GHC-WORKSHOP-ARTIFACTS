@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "description": "Employee",
+  "properties": {
+    "employeeID": {
+      "type": "string",
+      "description": "The ID used to uniquely identify this employee."
+    },
+    "firstName": {
+      "type": "string",
+      "description": "Employee First name"
+    },
+    "lastName": {
+      "type": "string",
+      "description": "Employee last name"
+    },
+    "email": {
+      "type": "string",
+      "description": "Employee email"
+    }
+  }
+}
